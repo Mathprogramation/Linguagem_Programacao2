@@ -10,7 +10,7 @@ const buttons = document.querySelectorAll("button");
 function Button1() {
     for (let btn of buttons) {
             btn.addEventListener('click', function() {
-                document.querySelector("h1").classList.add("ativo");
+                document.querySelector("h1").classList.add("ativo!");
             })
         }
     
